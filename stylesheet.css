@@ -1,0 +1,104 @@
+h1 {
+    color: blue;
+  }
+  h2 {
+    color: green;
+  }
+  body {
+    font-family: "Arial", sans-serif;
+    text-align:center;
+    margin: 0;
+    color: #3e363f;
+    padding-top: 70px;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .menu-item {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+    
+  }
+  .menu-item:hover {
+    background-color: #ddd;
+    transition: all 0.01s ease-in-out;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  #habilidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#contacto ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+}  
+#habilidades ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #070101;
+    border-radius: 5px;
+    margin-right: 10px;
+}  
+#proyectos ul li a {
+    text-decoration: none;
+    color: #247a4f;
+}
+#proyectos ul li a:hover {
+    text-decoration: underline;
+}
+#sociales {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+#sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}  
+.fa {
+    color: #333;
+    text-decoration: none;
+    margin-left: 0px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
